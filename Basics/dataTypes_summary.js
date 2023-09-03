@@ -34,3 +34,28 @@ const myFunction = function(){
 
 
 console.log(typeof outsideTemp);
+
+
+//   ++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive) get only copy from memory,  heap(Non-Primitive) get original value from memory
+
+let myName = "Sujeetkumar"
+
+let anothername = myName
+anothername = "SUjeet"
+
+console.log(myName);
+console.log(anothername);
+
+let userOne = {
+    email: "sujet@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sujeet@gooogle.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
