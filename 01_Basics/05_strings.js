@@ -15,25 +15,25 @@ const gameName = new String('Sujeet');
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
 // console.log(gameName);
- console.log(gameName.charAt(2));
- console.log(gameName.indexOf("t"));
+//  console.log(gameName.charAt(2));
+//  console.log(gameName.indexOf("t"));
 
  const newString = gameName.substring(0,4)
- console.log(newString);
+//  console.log(newString);
 
  const anotherString = gameName.slice(-1, 4)// not working properly
- console.log(anotherString);
+//  console.log(anotherString);
 
  const newStringOne = "     sujeet     "
- console.log(newStringOne);
- console.log(newStringOne.trim());
+//  console.log(newStringOne);
+//  console.log(newStringOne.trim());
 
  const url = "https://sujeet.cpm/sujeet%20kumar"
- console.log(url.replace('%20',"_"));
+//  console.log(url.replace('%20',"_"));
 
- console.log(url.includes('ji'));
+//  console.log(url.includes('ji'));
 
- console.log(gameName.split(''));
+//  console.log(gameName.split(''));
 
  /* 
  length
