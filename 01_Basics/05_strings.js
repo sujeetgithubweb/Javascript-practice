@@ -1,4 +1,4 @@
-const name = "sujeet"  
+const name = "sujeet"  // we should not use valriablename as a name because it's depricated 
 const repoCount = 40
 
 // console.log(name + repoCount + " Value")
