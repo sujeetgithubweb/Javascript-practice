@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>DOM Learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+  </head>
+  <body class="bg-black" >
+    <div >
+      <h1 id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <h2>Lorem ipsum dolor sit.</h2>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <input type="password">
+      <ul>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+<!-- 
+    textContent...all content
+    innerText  ...curren visibal content
+    innerHTML...all content including elements
+ -->
+
+ <!-- 
+    document.querySelector('h2')
+    document.querySelector('#title')
+    document.querySelector('.heading')
+    document.querySelector('input[tupe="password"]')
+    document.querySelector('p:first-child')
+  -->
+
+  <!-- 
+    const myul = document.querySelectoe('ul')
+    const turngreen = myul.document.querySelector('li')
+    turngreen.style.backgroundColor = "green"
+    turngreen.innertext = "five"
+   -->
+
+   <!-- 
+     const tempLiList = document.querySelectorAll('li')
+     tempLiList[0].style.color = 'green'
+    -->
+
+    <!-- 
+        to convert nodelist to array for maping and looping
+
+        Array.from(variableName)  ....enter...variableName contains all the data 
+     -->
+
+     <!-- 
+        ALLH2.forEach(function (h) {
+    h.style.color = 'red';
+    h.style.padding = '200px'
+    })
+      -->
