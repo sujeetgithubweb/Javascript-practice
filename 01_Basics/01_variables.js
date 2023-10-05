@@ -3,6 +3,7 @@ let accountEmail = "sujeet@gmail.com"
 var accountPassword ="12345"
 accountCity = "Pune" // not good practice to create variale
 let accountState;
+let classes = "";
 
 // accountId = 2 // not allowed
 
